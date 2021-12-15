@@ -17,6 +17,7 @@ cssselect2==0.4.1
 daphne==3.0.2
 defusedxml==0.7.1
 Deprecated==1.2.13
+distribute==0.6.28
 dj-database-url==0.5.0
 Django==3.0
 django-cors-headers==3.10.0
@@ -58,7 +59,6 @@ pyasn1-modules==0.2.8
 pycairo==1.16.2
 pycparser==2.20
 pycrypto==2.6.1
-pycups==1.9.73
 PyJWT==2.3.0
 pylint==2.3.1
 pymacaroons==0.13.0
@@ -78,6 +78,7 @@ requests==2.18.4
 requests-unixsocket==0.1.5
 SecretStorage==2.3.1
 service-identity==21.1.0
+setuptools==1.0
 simplejson==3.13.2
 six==1.11.0
 sqlparse==0.4.1
