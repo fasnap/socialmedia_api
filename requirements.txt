@@ -36,7 +36,6 @@ image==1.5.33
 importlib-metadata==4.6.4
 incremental==21.3.0
 isort==4.3.17
-kazam==1.4.5
 keyring==10.6.0
 keyrings.alt==3.0
 language-selector==0.1
