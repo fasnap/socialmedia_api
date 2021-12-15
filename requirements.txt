@@ -46,7 +46,6 @@ Mako==1.0.7
 mccabe==0.6.1
 msgpack-python==0.5.6
 netifaces==0.10.4
-notify2==0.3
 oauth==1.0.1
 olefile==0.45.1
 pbr==5.6.0
