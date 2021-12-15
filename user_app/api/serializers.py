@@ -24,7 +24,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({'error':'Password should be the same'})
 
         if Account.objects.filter(email=self.validated_data['email']).exists():
-            raise serializers.ValidationError({'error':'Email id already exists'})
+            raise serializers.ValidationError({'error':'Email id already exists.............................'})
         
         account = Account(
             fullname=self.validated_data['fullname'],
