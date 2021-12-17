@@ -37,8 +37,8 @@ class AccountManager(BaseUserManager):
 class Account(AbstractBaseUser):
     fullname = models.CharField(max_length=30,blank=True,null=True)
     username = models.CharField(max_length=30,unique=True)
-    phone = models.CharField(max_length=15,unique=True)
-    email = models.EmailField(max_length=100,unique=True)
+    phone = models.CharField(max_length=15,unique=True,null=True,blank=True)
+    email = models.EmailField(max_length=100,unique=True,null=True,blank=True)
 
     date_joined = models.DateTimeField(auto_now_add=True)
     last_login = models.DateTimeField(auto_now=True)
